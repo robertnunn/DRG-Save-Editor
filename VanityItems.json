@@ -1,0 +1,1797 @@
+{
+    "Armor": [
+        {
+            "7BD7ABE5AE3A64479F1A5AE798915BA9": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorDriller_DLC01.uexp"
+            },
+            "E21021DC6AA34E43B5387577F03EEBFD": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorDriller_DLC03.uexp"
+            },
+            "C957C87E22B44341A83EB0B9C0B6814E": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorDriller_DLC_Streamer.uexp"
+            },
+            "CB8F03554A8FBE4AA6CC0D00F0C9C26A": {
+                "name": "MK1 Drill Suit",
+                "desc": "The baseline suit of any Driller. A true classic, and a mainstay of DRG since the inception.",
+                "filename": "VAN_ArmorDriller_MK1.uexp"
+            },
+            "DF35DAFC2CBDD84580C84B35248BC5AF": {
+                "name": "MK2 Drill Suit",
+                "desc": "A sleek, modern design, incorporating many snazzy innovations according to the lads down in R&D. They're not saying what exactly, though.",
+                "filename": "VAN_ArmorDriller_MK2.uexp"
+            },
+            "7C34048CE0E76346910AF701C9FCE639": {
+                "name": "MK3 Drill Suit",
+                "desc": "The no-frills version of the advanced MK3 line of armor. Cheap and light (comparatively speaking), this comfortable suit will provide a Driller with all the protection he needs for most operations. Or so the blurb on the box says, anyway...",
+                "filename": "VAN_ArmorDriller_MK3.uexp"
+            },
+            "3BDEA112F8C2204087722AD05CEBB1F3": {
+                "name": "MK4 Drill Suit",
+                "desc": "Among the densest suits available in the DRG arsenal, the MK4 heavy Driller Suit leaves no question as to what you're here for. This suit will withstand a thermonuclear blast, though it HAS been said to be slightly susceptible to liquids. Just bear that in mind.",
+                "filename": "VAN_ArmorDriller_MK4.uexp"
+            },
+            "4A58EC12F780644C89EFAD844FE98E85": {
+                "name": "MK5 Drill Suit",
+                "desc": "Another breakthrough from R&D. The MK5 Drill Suit is a masterpiece of engineering - the comfort of a leather armchair, wrapped in a titanium-alloy exoskeleton.",
+                "filename": "VAN_ArmorDriller_MK5.uexp"
+            },
+            "E8FD1CE75DFFF146AF99B72D6B2BF3CB": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorEngineer_DLC01.uexp"
+            },
+            "FD8245D924F2A74EBFCA348220EC142B": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorEngineer_DLC03.uexp"
+            },
+            "D90EAA57D90B9A4BB5E1A9B9A21F0CE5": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorEngineer_DLC_Streamer.uexp"
+            },
+            "691C6A9D33B03D4BBB89C501E9857017": {
+                "name": "MK1 Engineer Suit",
+                "desc": "The baseline suit of any Engineer. A true classic, and a mainstay of DRG since the inception.",
+                "filename": "VAN_ArmorEngineer_MK1.uexp"
+            },
+            "54BCA9013BA30C408F5F73020857D1FF": {
+                "name": "MK2 Engineer Suit",
+                "desc": "A sleek, modern design, incorporating many snazzy innovations according to the lads down in R&D. They're not saying what exactly, though.",
+                "filename": "VAN_ArmorEngineer_MK2.uexp"
+            },
+            "2E441C2AA8A1A64A95B52191A5FDD215": {
+                "name": "MK3 Engineer Suit",
+                "desc": "The MK3 line of mining gear is top of the line, and even this cut-down version offers several improvements over previous suits. It features heavy-duty powercells built straight into the plating, as well as handy pockets for snacks - not to mention an FM-radio in the collar.",
+                "filename": "VAN_ArmorEngineer_MK3.uexp"
+            },
+            "34FC75960F4F7244A0A1C37E54926893": {
+                "name": "MK4 Engineer Suit",
+                "desc": "A walking command center, the MK4 heavy Engineer Suit means you'll never lose reception again. It's loaded up with so much top-of-the-line tech most of the eggheads can't even name it all.",
+                "filename": "VAN_ArmorEngineer_MK4.uexp"
+            },
+            "EEA60DFA8224F740AEF8A80E1F5DD9C4": {
+                "name": "MK5 Engineer Suit",
+                "desc": "Also known as the \"The Pincushion\", the MK5 Engineer Suit is another technological marvel. It has more glowy and blinky bits than any other Engineer suit currently out there, and that's gotta be good.",
+                "filename": "VAN_ArmorEngineer_MK5.uexp"
+            },
+            "4C00D7CC64BE1C41B339CA702AC8B07C": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorGunner_DLC01.uexp"
+            },
+            "2DF72413D86EB74DAAA65B0E4275195E": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorGunner_DLC03.uexp"
+            },
+            "8F05E28507058D4F850C962D9CECFF08": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorGunner_DLC_Streamer.uexp"
+            },
+            "EC88C4D809DD0E4D85EDF8C632CAB51C": {
+                "name": "MK1 Gunner Suit",
+                "desc": "The baseline suit of any Gunner. A true classic, and a mainstay of DRG since the inception.",
+                "filename": "VAN_ArmorGunner_MK1.uexp"
+            },
+            "1E419F741DA2754993B99649E2D6C868": {
+                "name": "MK2 Gunner Suit",
+                "desc": "A sleek, modern design, incorporating many snazzy innovations according to the lads down in R&D. They're not saying what exactly, though.",
+                "filename": "VAN_ArmorGunner_MK2.uexp"
+            },
+            "A1D7C5E5CA296E4A81C4FDBEA1226EA8": {
+                "name": "MK3 Gunner Suit",
+                "desc": "The Gunner-version of the MK3 suit incorporates several breakthrough technologies straight off the lines at R&D. Ablative kevlar-plating, zero-friction joints, the list goes on and the eggheads are frankly pretty proud of this one.",
+                "filename": "VAN_ArmorGunner_MK3.uexp"
+            },
+            "C810882939CF7149B86C1505B3B90DD7": {
+                "name": "MK4 Gunner Suit",
+                "desc": "\"And I heard a voice in the midst of the four beasts. And I looked, and behold a pale horse. And his name that sat on him was death, and hell followed with him.\"",
+                "filename": "VAN_ArmorGunner_MK4.uexp"
+            },
+            "E4DE0716E323FA41A5AFF226D806EDE2": {
+                "name": "MK5 Gunner Suit",
+                "desc": "The MK5 Gunner Suit bears several similarities to old-world tortoises, which is completely fitting. It is a suit for the discerning gunner, offering both protection, mobility, and handy guard rails for lesser dwarves to shiveringly cling on to while you lay down the law.",
+                "filename": "VAN_ArmorGunner_MK5.uexp"
+            },
+            "2B1754AB4CCD834494AD86FADA6FCB6B": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_DLC03.uexp"
+            },
+            "C2EC681F84664A4D81E86BEB8460054A": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_DLC03.uexp"
+            },
+            "E7AA784D99EDF445BEA115B2E00280DA": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_DLC03.uexp"
+            },
+            "F4BB02A35E01224ABB873FF552BA98DD": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorScout_DLC01.uexp"
+            },
+            "1AFEC4CA1C3362448C10FBF00C7A8636": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorScout_DLC03.uexp"
+            },
+            "02AF9B5E87A7344AB06A7347185162AC": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorScout_DLC_Streamer.uexp"
+            },
+            "A8EAC92C72A84048AF4048EB1F63494D": {
+                "name": "MK1 Scout Suit",
+                "desc": "The baseline suit of any Scout. A true classic, and a mainstay of DRG since the inception.",
+                "filename": "VAN_ArmorScout_MK1.uexp"
+            },
+            "46A93FC8BA8F634597C9F83912566AD3": {
+                "name": "MK2 Scout Suit",
+                "desc": "A sleek, modern design, incorporating many snazzy innovations according to the lads down in R&D. They're not saying what exactly, though.",
+                "filename": "VAN_ArmorScout_MK2.uexp"
+            },
+            "30C4AFD7E386CB4891E21FA5164BC165": {
+                "name": "MK3 Scout Suit",
+                "desc": "Offering more armor at a significantly reduced weight while maintaining flexibility, this suit is superior to its predecessors in almost every single way. Plus, we've been told it looks swish as hell.",
+                "filename": "VAN_ArmorScout_MK3.uexp"
+            },
+            "BE2E6656D5AF554F949816AAF21D4B5B": {
+                "name": "MK4 Scout Suit",
+                "desc": "The Scout class isn't known for their heavy gear. But sometimes you do wanna dress for the job - especially if the job is facing down three 2-ton Dreadnoughts at close range. Stay safe.",
+                "filename": "VAN_ArmorScout_MK4.uexp"
+            },
+            "B3F0D548AA88C34E9F484FE185075A4C": {
+                "name": "MK5 Scout Suit",
+                "desc": "An old-world adage says to \"Be Prepared\" - and the MK5 Scout Suit does not disappoint. Kevlar-reinforced vest and harness, steel-clawed boots, handy flare-pockets - they even included an extra sandwich pouch!",
+                "filename": "VAN_ArmorScout_MK5.uexp"
+            },
+            "D96CEEBEE078B24C91C26F66205A36EC": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Armor_DLC04_Driller.uexp"
+            },
+            "F1552C512A1DA943AAEF288B51E8F6ED": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Armor_DLC04_Engineer.uexp"
+            },
+            "2B81CDB4689C334E933D90778FAD9601": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Armor_DLC04_Gunner.uexp"
+            },
+            "641E112A8382DA438E398AA667CD9FD8": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Armor_DLC04_Scout.uexp"
+            },
+            "E2992249A6DEE54C9E24B8F0DD323284": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Armor_ScaleBrigade_Driller.uexp"
+            },
+            "2861696F10B99E489999D64B461D198C": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Armor_ScaleBrigade_Engineer.uexp"
+            },
+            "93312B33E1A90B43A9993F85A3C5184D": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Armor_ScaleBrigade_Gunner.uexp"
+            },
+            "ACCE3B911AFCB94EB51983B6476D5DD2": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Armor_ScaleBrigade_Scout.uexp"
+            }
+        }
+    ],
+    "Paintjobs_ArmorDefaults": [
+        {
+            "38E6A802FC80F5499A37672728637FE6": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_DLC04_Driller.uexp"
+            },
+            "45A96A99DCD2AE499DEF38B2828DB9F9": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_DLC04_Engineer.uexp"
+            },
+            "156EDF926D70234989F1B13B3CB95DF4": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_DLC04_Gunner.uexp"
+            },
+            "314AEB8A9434C449B76D79E3F390CB70": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_DLC04_Scout.uexp"
+            },
+            "1A47496926910F40A5CC925A5CEA33FC": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_DLC01.uexp"
+            },
+            "57B061048DC57448AC78BD7E1166A9D9": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_DLC_Streamer.uexp"
+            },
+            "DCDFA7DC7FDB3F49A3DBC18798F8097E": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_MK1Default.uexp"
+            },
+            "6996251D0DA20548B2594D274CBA1298": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_MK2Default.uexp"
+            },
+            "CEE5DC5173FEAC43881FBA26777563F7": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_MK3Default.uexp"
+            },
+            "1D484B52ECC6854AA5EA54596A9B0443": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_MK4Default.uexp"
+            },
+            "3C007E4AAC91D240BA542E126481DFA5": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_MK5Default.uexp"
+            },
+            "D85EA899412A2B41B2A082D4A14F6F6F": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_DLC01.uexp"
+            },
+            "8F5B82BC751ED64E9A561B802060DEB9": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_DLC_Streamer.uexp"
+            },
+            "55DC1C6CA575DE47943116C907E2586A": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_MK1Default.uexp"
+            },
+            "C04A82FD3BD9D0498EF97B85A555E822": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_MK2Default.uexp"
+            },
+            "A9E91C92DD9DA244AC5C0A4464C640C9": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_MK3Default.uexp"
+            },
+            "44BD0000DD41D940B6AF6317A53F7356": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_MK4Default.uexp"
+            },
+            "F4AD6EAB457E5D419C5EBBFB38BD982A": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_MK5Default.uexp"
+            },
+            "8CA9767669A8D548AEE849085F019685": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_DLC01.uexp"
+            },
+            "1D8D15217860B84F9EB8DF42CC28D499": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_DLC_Streamer.uexp"
+            },
+            "FA17BDD074C34E43843380922FC5E1AE": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_MK1Default.uexp"
+            },
+            "41409D60DAFF6A46B1930AB76CC87C6D": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_MK2Default.uexp"
+            },
+            "374C0DBE720ADB41903CE504644807D7": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_MK3Default.uexp"
+            },
+            "BC7716C30CF40F4CB888513B98C0C7CE": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_MK4Default.uexp"
+            },
+            "C8B18A73E9538748916CE56B6A7143E1": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_MK5Default.uexp"
+            },
+            "71901424329FB349A131DA3FE28D4E0E": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_ScaleBrigade_Driller.uexp"
+            },
+            "E3EF1EB3CCCFA740811FBC0D34D255DE": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_ScaleBrigade_Engineer.uexp"
+            },
+            "03CD615742F2704B896EE8C0A3ADA7E1": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_ScaleBrigade_Gunner.uexp"
+            },
+            "B9D24EEB4FD0A14A93831A3E5C20B61B": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_ScaleBrigade_Scout.uexp"
+            },
+            "96F79295BE5F1848B399EDC64571879B": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_DLC01.uexp"
+            },
+            "69A323D44117A44CA326B6779358CC97": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_DLC_Streamer.uexp"
+            },
+            "61DD39A066E28B4EAB15F926895DFBDF": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_MK1Default.uexp"
+            },
+            "CB670014575A764193EB611A7A7630A0": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_MK2Default.uexp"
+            },
+            "DAD6D03F1FAF1E4090C855211FA82DB9": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_MK3Default.uexp"
+            },
+            "953A4CB75398B242A1D0C02ED0814294": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_MK4Default.uexp"
+            },
+            "9E542DA0DD02B1418505686D6AF6CABD": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_MK5Default.uexp"
+            }
+        }
+    ],
+    "Paintjobs_Loose": [
+        {
+            "BA2540C7DD0B144182F3287B87E17E60": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_BlackCrag.uexp"
+            },
+            "87C03FBC6A0015428436DE9826153138": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_Chalkbuster.uexp"
+            },
+            "0067BE4964B9994BBFCAC5E5C17B03B9": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_ChocolateReign.uexp"
+            },
+            "7B7CFF339A6ED34FBAF957A441F1B0E2": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_Colossus.uexp"
+            },
+            "85411657F5B07245994FD9507661BC6D": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_DLC02.uexp"
+            },
+            "C82307806CF9664990C6E09AA56809FB": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_DLC03global.uexp"
+            },
+            "9AFAF0D7BA0AC04794468ABA5A40DA19": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_IntricateCarver.uexp"
+            },
+            "69784395ADA2984B9BCDE55D5E841D35": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_MuddyPath.uexp"
+            },
+            "DEAE9D528AC86143885CBB46AD0609DB": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_MudRunner.uexp"
+            },
+            "99CD0CDB80834B4AA993F1E2C4671D4B": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_RegalAegis.uexp"
+            },
+            "57FAB47289D73842A06CD8B1A23B7F20": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_Splattered.uexp"
+            },
+            "43880990B735F94CBBFEBBA53635C117": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_Supporter.uexp"
+            },
+            "725D907BAD703B42BDB1ECF8F6088AB9": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Driller_ToxicDefender.uexp"
+            },
+            "E4F7B7E49D536247972E8CCA1D98460F": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_BlackCrag.uexp"
+            },
+            "D268D3C4E7096748A0F48D6EB7092B10": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_DLC02.uexp"
+            },
+            "AE8AA7B31A9B3942B9F6FD87B49F0AF0": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_DLC03global.uexp"
+            },
+            "A83BA78A1B3A544A8DC7DF05B3FC8107": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_DustRunner.uexp"
+            },
+            "AEC426D6D7C9C94397F6CCD24158C205": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_EmberFury.uexp"
+            },
+            "9407F1F4A350F64D8F3983957453348F": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_GrungeBuster.uexp"
+            },
+            "84153686DBDAEE449C8F4377AC8DFCD9": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_OrangeGeek.uexp"
+            },
+            "48A67999D3AF0D4FA1574D922DC02471": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_RegalAegis.uexp"
+            },
+            "D98820D55F70A04FA042A415B075F06B": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_Splattered.uexp"
+            },
+            "8529D698D63D7340AB96782B95BECA9B": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_Supporter.uexp"
+            },
+            "8D63DDC8925C314DA793D3614FCECAF1": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_TeachersPet.uexp"
+            },
+            "0B7F5F735F584745BBBCF5E215A050FA": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_TopDog.uexp"
+            },
+            "644AA2811B108D46B5994279A29CF877": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Engineer_ToxicDefender.uexp"
+            },
+            "59DAD427A0C49E4897475DB50E62478A": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_BlackCrag.uexp"
+            },
+            "636D6F16A842EF4BB133752E2380335A": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_Copperbug.uexp"
+            },
+            "FDA5B5BA82D505458DEDFC8955624C29": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_DesertRoad.uexp"
+            },
+            "A5C6CB1D3E00144D9D3C8D169C022E4B": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_DistantFields.uexp"
+            },
+            "7F48A45594A7D04C90C49B69B5575200": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_DLC02.uexp"
+            },
+            "C2805F192C87D14B9BCA5168B87DA2D8": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_DLC03global.uexp"
+            },
+            "43E91AA86E539E4C8DA45FC4D3986A7A": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_LimeThunder.uexp"
+            },
+            "CCF825C68F5D394B879635CB6EA9E5AA": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_MercuryBulwark.uexp"
+            },
+            "B4F84DDB5051EC45B995EB20D21FB1BD": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_RegalAegis.uexp"
+            },
+            "CC9ED1C95FBBC849801E72AD273429D1": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_Splattered.uexp"
+            },
+            "CA3B183E4A858F4D95A63CDCFC7DFA0E": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_Supporter.uexp"
+            },
+            "32F6E884D938A242886AB3C2AD4D7DC3": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_TopsoilDefender.uexp"
+            },
+            "C1561BB846F72A4E82ACF9349820546E": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Gunner_ToxicDefender.uexp"
+            },
+            "DB0DDEAF4409274A8D41FB1054226986": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_AquaForce.uexp"
+            },
+            "D10335DC017E15489538A293410DD051": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_AzureDraft.uexp"
+            },
+            "05CC3A8E8AA7D7418E5A3D8DCE9D2739": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_BlackCrag.uexp"
+            },
+            "C06B545F56FF8842873DFD5C89E2F5AD": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_DarkStripes.uexp"
+            },
+            "0077CC9BF3C28042860190439333CD60": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_DLC02.uexp"
+            },
+            "53D8D753B3EC2A42B33CD5A9756456CF": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_DLC03.uexp"
+            },
+            "A07CE1DA8E0AF048A28EE15611356331": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_DLC03global.uexp"
+            },
+            "496E73679E73444CB665C03EB9A5D1D3": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_DustyWinds.uexp"
+            },
+            "8B15FB3727AA7745AFEC119D0F9A4B47": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_FrigidTiger.uexp"
+            },
+            "03092C4C23581642BC4B915CDD9AA56B": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_RegalAegis.uexp"
+            },
+            "34415C4EE679BF418365F807398A8405": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_Splattered.uexp"
+            },
+            "C6A248B74E7FB64792BD5E393745C6FC": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_SubtleShadow.uexp"
+            },
+            "8CA8E4CFD6D94848A716CF36031E3D4A": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_Supporter.uexp"
+            },
+            "29579C2243B95A41B3C88195EA556D42": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_ArmorMat_Scout_ToxicDefender.uexp"
+            }
+        }
+    ],
+    "Beards": [
+        {
+            "6B746417B26DC5408AD41BDC47DA854C": {
+                "name": "Bound Goatee",
+                "desc": "The choice of a pragmatist.",
+                "filename": "VAN_Beard_A001_BoundGoatee.uexp"
+            },
+            "CD98E28914D16742A5564668CF10021E": {
+                "name": "Mighty Pelt - Gilded",
+                "desc": "An impressive beard for an impressive dwarf.",
+                "filename": "VAN_Beard_A002_MightyPeltGilded.uexp"
+            },
+            "8983FBDB029B7641B44EA6154B3D0F9E": {
+                "name": "Bound Goatee - Gilded",
+                "desc": "The choice of a pragmatist.",
+                "filename": "VAN_Beard_A003_BoundGoateeGilded.uexp"
+            },
+            "921373546ACFCE408BF88BF57C976489": {
+                "name": "Bound Goatee - Armored",
+                "desc": "The choice of a pragmatist.",
+                "filename": "VAN_Beard_A004_BoundGoateeSteel.uexp"
+            },
+            "DFBE35D9F9824C408D668976A4A661C7": {
+                "name": "Mighty Pelt",
+                "desc": "An impressive beard for an impressive dwarf.",
+                "filename": "VAN_Beard_A005_MightyPelt.uexp"
+            },
+            "3BDDB674C3DF7F4E9CD1B7D003D20D04": {
+                "name": "Mighty Pelt - Armored",
+                "desc": "An impressive beard for an impressive dwarf.",
+                "filename": "VAN_Beard_A006_MightyPeltArmored.uexp"
+            },
+            "AFB031BEBA1B6B488E83FEEF782F8E4F": {
+                "name": "Monumental Goatee",
+                "desc": "A favorite of dwarves and mountain people alike.",
+                "filename": "VAN_Beard_A007_MonumentalGoatee.uexp"
+            },
+            "A7E3FF826A8AE04EAA10745A59A828D3": {
+                "name": "Monumental Goatee - Armored",
+                "desc": "A favorite of dwarves and mountain people alike.",
+                "filename": "VAN_Beard_A008_MonumentalGoateeArmored.uexp"
+            },
+            "7B16C9555B75B2439E3A3513D14DCC62": {
+                "name": "Monumental Goatee - Gilded",
+                "desc": "A favorite of dwarves and mountain people alike.",
+                "filename": "VAN_Beard_A009_MonumentalGoateeGilded.uexp"
+            },
+            "35DF374A4626E64EBA62F2DD9BC2385A": {
+                "name": "Rambunctious Elder",
+                "desc": "Impressive length and assertive messiness - this is a beard that commands respect.",
+                "filename": "VAN_Beard_A013_RambunctiousElder.uexp"
+            },
+            "703E0DF32EA7BD4BB3B11A06FE94B7BD": {
+                "name": "Twinned Wintry",
+                "desc": "A sombre and inspiring look for the fancy dwarf on the go.",
+                "filename": "VAN_Beard_A014_TwinnedWintry.uexp"
+            },
+            "67938C1DC01658419C36982EBE4743B6": {
+                "name": "Twinned Wintry - Armored",
+                "desc": "A sombre and inspiring look for the fancy dwarf on the go.",
+                "filename": "VAN_Beard_A015_TwinnedWintryArmored.uexp"
+            },
+            "0893B1F939A03E469F3217C2A3258C98": {
+                "name": "Twinned Wintry - Gilded",
+                "desc": "A sombre and inspiring look for the fancy dwarf on the go.",
+                "filename": "VAN_Beard_A016_TwinnedWintryGilded.uexp"
+            },
+            "E03A35F4A4BBDD4DA818994CFB344735": {
+                "name": "Crested Waterfall",
+                "desc": "A mighty beard, armored for the mighty warrior.",
+                "filename": "VAN_Beard_A017.uexp"
+            },
+            "AEF7A9BC3DABC249AA4F24266BD7B0F2": {
+                "name": "Tank Division",
+                "desc": "How do you carry a glorious beard into a fiery hellscape, without having to stick it underneath your armor? Simple!",
+                "filename": "VAN_Beard_A018.uexp"
+            },
+            "779D1F2184A60D47B16CB77728D7F698": {
+                "name": "Bulbous Upturn",
+                "desc": "A merry beard for merry dwarves!",
+                "filename": "VAN_Beard_A019.uexp"
+            },
+            "0FF70F3615879541AFFD8FBB0A781436": {
+                "name": "Hardworn Scraggler",
+                "desc": "Wild growth, the smell of chewing tobacco, and the sound of heavy machinery in the background. This is a beard for the working dwarf.",
+                "filename": "VAN_Beard_A020.uexp"
+            },
+            "00882DB60CF8454BBAB3DD07F5D25F6D": {
+                "name": "Tremendous Wave",
+                "desc": "No need for jewelry or other embellishments on this simply glorious beard. Just look at it!",
+                "filename": "VAN_Beard_A021.uexp"
+            },
+            "F11A46772F449E41B64C2928C5B31236": {
+                "name": "Great Fork - Armored",
+                "desc": "Why settle for ONE beard when you can have TWO?",
+                "filename": "VAN_Beard_B001_GreatForkArmored.uexp"
+            },
+            "4700BA086A0FB149BC1AEA9585B585E4": {
+                "name": "Great Fork",
+                "desc": "Why settle for ONE beard when you can have TWO?",
+                "filename": "VAN_Beard_B002_GreatFork.uexp"
+            },
+            "82CB30ABD9CEC74193660F98A4BF4654": {
+                "name": "Great Fork - Gilded",
+                "desc": "Why settle for ONE beard when you can have TWO?",
+                "filename": "VAN_Beard_B003_GreatForkGilded.uexp"
+            },
+            "796C0B8C2882FC4797992B92CA4CE7D9": {
+                "name": "Double Horsetails",
+                "desc": "For the up-and-coming dwarf, this is a most powerful look.",
+                "filename": "VAN_Beard_B004_DoubleHorsetails.uexp"
+            },
+            "11A02805529EC74E8D24DE9FDE3E12E4": {
+                "name": "Double Horsetails - Armored",
+                "desc": "For the up-and-coming dwarf, this is a most powerful look.",
+                "filename": "VAN_Beard_B005_DoubleHorsetailsArmored.uexp"
+            },
+            "5084DB00951DDE44A1CA408B40FA3ED1": {
+                "name": "Double Horsetails - Gilded",
+                "desc": "For the up-and-coming dwarf, this is a most powerful look.",
+                "filename": "VAN_Beard_B006_DoubleHorsetailsGilded.uexp"
+            },
+            "1EBFE7D42C2BF540A4C473A59F7EFFC9": {
+                "name": "Braided Abundance",
+                "desc": "Just spectacular. For the elder dwarf, proud of his heritage, stoic in his beliefs. Does imply a certain level of vanity...",
+                "filename": "VAN_Beard_B010_BraidedAbundance.uexp"
+            },
+            "025DA252D10DE942B35904A88D73F4A8": {
+                "name": "Braided Abundance - Armored",
+                "desc": "Just spectacular. For the elder dwarf, proud of his heritage, stoic in his beliefs. Does imply a certain level of vanity...",
+                "filename": "VAN_Beard_B011_BraidedAbundanceArmored.uexp"
+            },
+            "5B186AFF4E74BE4193E7C8F5422DFD67": {
+                "name": "Braided Abundance - Gilded",
+                "desc": "Just spectacular. For the elder dwarf, proud of his heritage, stoic in his beliefs. Does imply a certain level of vanity...",
+                "filename": "VAN_Beard_B012_BraidedAbundanceGilded.uexp"
+            },
+            "261CC3A2CED27845BB3C9DA1292BB758": {
+                "name": "Savage Full",
+                "desc": "For a long time, the heritage of the savage hill-dwarves has been a topic of hushed conversation. Now...they are back!",
+                "filename": "VAN_Beard_B013_SavageFull.uexp"
+            },
+            "A7EE9F2F31B0E74E86D546338AC016E0": {
+                "name": "Savage Full - Armored",
+                "desc": "For a long time, the heritage of the savage hill-dwarves has been a topic of hushed conversation. Now...they are back!",
+                "filename": "VAN_Beard_B014_SavageFullArmored.uexp"
+            },
+            "1E5AC6A94A2ABF488552F93035200C86": {
+                "name": "Savage Full - Gilded",
+                "desc": "For a long time, the heritage of the savage hill-dwarves has been a topic of hushed conversation. Now...they are back!",
+                "filename": "VAN_Beard_B015_SavageFullGilded.uexp"
+            },
+            "540F1190E062F146900445DB85F95348": {
+                "name": "Bulbous Full",
+                "desc": "For sheer volume, this one is hard to beat.",
+                "filename": "VAN_Beard_BulbousFull.uexp"
+            },
+            "A479CBAAAA10A842A07E5CB8820EAB63": {
+                "name": "Massive Braid",
+                "desc": "So you've grown your beard to an impressive length, but prefer not to get it caught in every piece of machinery. Braids is your answer - or, in this case, one braid to rule them all!",
+                "filename": "VAN_Beard_C001_MassiveBraid.uexp"
+            },
+            "2712FF6C88B51E40A62F506CDF2272D9": {
+                "name": "Massive Braid - Armored",
+                "desc": "So you've grown your beard to an impressive length, but prefer not to get it caught in every piece of machinery. Braids is your answer - or, in this case, one braid to rule them all!",
+                "filename": "VAN_Beard_C002_MassiveBraidArmored.uexp"
+            },
+            "E87122087C67AD47B68F86E58EDD13DC": {
+                "name": "Massive Braid - Gilded",
+                "desc": "So you've grown your beard to an impressive length, but prefer not to get it caught in every piece of machinery. Braids is your answer - or, in this case, one braid to rule them all!",
+                "filename": "VAN_Beard_C003_MassiveBraidGilded.uexp"
+            },
+            "1473968C92BF514FAAA6CC28F6850AC0": {
+                "name": "Bound Unicord",
+                "desc": "You want a big beard, but you also want it to be less obstructive? Bind it!",
+                "filename": "VAN_Beard_C004.uexp"
+            },
+            "9721B0FDF03222438AF6991FA771718F": {
+                "name": "Bound Unicord - Armored",
+                "desc": "You want a big beard, but you also want it to be less obstructive? Bind it - with shackles!",
+                "filename": "VAN_Beard_C005.uexp"
+            },
+            "A62E6779884C3947B5BC42266CB4C4B4": {
+                "name": "Bound Unicord - Gilded",
+                "desc": "You want a big beard, but you also want it to be less obstructive? Bind it - with bling!",
+                "filename": "VAN_Beard_C006.uexp"
+            },
+            "9F7E599CABF31342A6BD4E60828E886C": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Beard_CleanShave.uexp"
+            },
+            "E44FB5896F04C240ABEF9349EC8D0B3C": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Beard_CleanShaveFREE.uexp"
+            },
+            "94EACBDE315E9147961BCE51A35DC702": {
+                "name": "Triple Trouble",
+                "desc": "An ancient standard that never goes out of style.",
+                "filename": "VAN_Beard_D001_TripleTrouble.uexp"
+            },
+            "DCDDB81EF75A6C45927FD2DD76B04EF1": {
+                "name": "Triple Trouble - Armored",
+                "desc": "An ancient standard that never goes out of style.",
+                "filename": "VAN_Beard_D002_TripleTroubleArmored.uexp"
+            },
+            "60338E2F6A8F7145A7907D5C8E887C8C": {
+                "name": "Triple Trouble - Gilded",
+                "desc": "An ancient standard that never goes out of style.",
+                "filename": "VAN_Beard_D003_TripleTroubleGilded.uexp"
+            },
+            "EBC1936A89211940BFAFDECFF8F1F169": {
+                "name": "Dignified Elder",
+                "desc": "It takes a lot of effort to look this good.",
+                "filename": "VAN_Beard_DignifiedElder.uexp"
+            },
+            "E2BA052A6DF6654A88A01D77F1AB1C7E": {
+                "name": "Massive Chinstrap",
+                "desc": "Volume to die for.",
+                "filename": "VAN_Beard_MassiveChinstrap.uexp"
+            },
+            "8065DDED57DB554FAD483CB2041B0FDA": {
+                "name": "Massive Chinstrap",
+                "desc": "Volume to die for.",
+                "filename": "VAN_Beard_MassiveChinstrapFREE.uexp"
+            },
+            "B8B188A9AECA874D81A4F5AE9112ABD9": {
+                "name": "Pointed Goatee",
+                "desc": "As made famous by men in top hats or wearing horns.",
+                "filename": "VAN_Beard_PointedGoatee.uexp"
+            },
+            "CEBEB92475D13543AC254B031E17201E": {
+                "name": "Prospector",
+                "desc": "2 starlings and a surly crow nest in there.",
+                "filename": "VAN_Beard_Prospector.uexp"
+            },
+            "BC0DAEBBDBFED84AB76FBD7FF0FA1067": {
+                "name": "Square",
+                "desc": "Carved with a chisel rather than a razor.",
+                "filename": "VAN_Beard_Square.uexp"
+            }
+        }
+    ],
+    "Eyebrows": [
+        {
+            "1EF9B9FF8D3975468B4A9132B70E54D5": {
+                "name": "Voluminous Philosopher",
+                "desc": "Perfect for naps in the shade.",
+                "filename": "VAN_Eyebrows_005.uexp"
+            },
+            "62C6378D758F784FA8AD0065A14AA8E2": {
+                "name": "Worrywart",
+                "desc": "Don't worry, young man. Be happy.",
+                "filename": "VAN_Eyebrows_006.uexp"
+            },
+            "C395D069C479C84A901A07F7F4611CC6": {
+                "name": "Extreme Protuberance",
+                "desc": "Inconceivable!",
+                "filename": "VAN_Eyebrows_007.uexp"
+            },
+            "8196C91C79967F41ADB53CC42713BA08": {
+                "name": "Fuzzy Slugs",
+                "desc": "Thick and imposing, just like mama.",
+                "filename": "VAN_Eyebrows_FuzzySlugs.uexp"
+            },
+            "BE6E3ED4FD68EB4BB5549DBF87B7EF3E": {
+                "name": "Fuzzy Slugs",
+                "desc": "Thick and imposing, just like mama.",
+                "filename": "VAN_Eyebrows_FuzzySlugsFREE.uexp"
+            },
+            "51F928245C91704298AAE2AF154FD59D": {
+                "name": "Merry Curvy",
+                "desc": "For those with a cheery disposition.",
+                "filename": "VAN_Eyebrows_MerryCurve.uexp"
+            },
+            "299B8E34F47775478DFAA0941671BB1E": {
+                "name": "Monstrous Thick",
+                "desc": "Like two secondary beards for your eyes.",
+                "filename": "VAN_Eyebrows_MonstrousThick.uexp"
+            },
+            "35C494A1BB07FD4B82A6B957D645D13A": {
+                "name": "Refined",
+                "desc": "Thin, refined, not elven at all.",
+                "filename": "VAN_Eyebrows_Refined.uexp"
+            }
+        }
+    ],
+    "HairColors": [
+        {
+            "7F1E56E42058E3449ECBEC83B4A2B741": {
+                "name": "Amethyst",
+                "desc": "An unusual choice, but definitely eyecatching!",
+                "filename": "VAN_HairColor_Amethyst.uexp"
+            },
+            "27B3B71914B56B4E9CC8C78A9E893302": {
+                "name": "Ancient",
+                "desc": "You're up there. Among the few. Those that lived.",
+                "filename": "VAN_HairColor_Ancient.uexp"
+            },
+            "5D6E7BBB6D96D64985EB3C24DB59F5AD": {
+                "name": "Black",
+                "desc": "Slick and dark like crude oil.",
+                "filename": "VAN_HairColor_Black.uexp"
+            },
+            "64A38893B90F2A468411F575136319E4": {
+                "name": "Black",
+                "desc": "Slick and dark like crude oil.",
+                "filename": "VAN_HairColor_BlackFREE.uexp"
+            },
+            "DB35F3A1E70B5348AAC72A56B781EB7E": {
+                "name": "Blonde",
+                "desc": "Bright like a summer afternoon. You should get inside more.",
+                "filename": "VAN_HairColor_Blonde.uexp"
+            },
+            "CA97D685A786B142B705896D71849A56": {
+                "name": "Blonde",
+                "desc": "Bright like a summer afternoon. You should get inside more.",
+                "filename": "VAN_HairColor_BlondeFREE.uexp"
+            },
+            "C9D7EEF9B973FE4DA72F5C49B8670AFD": {
+                "name": "Brown",
+                "desc": "No frills, no thrills - you got better things to care about.",
+                "filename": "VAN_HairColor_Brown.uexp"
+            },
+            "086C7EBA161E5342A607CB89E9BDDE25": {
+                "name": "Brown",
+                "desc": "No frills, no thrills - you got better things to care about.",
+                "filename": "VAN_HairColor_BrownFREE.uexp"
+            },
+            "FF9760032C81034BA9AF1934BB71AB38": {
+                "name": "Jade",
+                "desc": "Pearlescently pleasing.",
+                "filename": "VAN_HairColor_Jade.uexp"
+            },
+            "4FAFB8A0C1AE834E97CBC96E756826E1": {
+                "name": "Red",
+                "desc": "The bright bloom of true Dwarven Rage.",
+                "filename": "VAN_HairColor_Red.uexp"
+            },
+            "E17C673F71B0D14A8B9C12FC602A193C": {
+                "name": "Red",
+                "desc": "The bright bloom of true Dwarven Rage.",
+                "filename": "VAN_HairColor_RedFREE.uexp"
+            },
+            "4E78B5A64ED0064CAE65CE67CE0D2B28": {
+                "name": "Silverfox",
+                "desc": "Minky, musky, sly, old, foxy, foxy fox.",
+                "filename": "VAN_HairColor_Silverfox.uexp"
+            },
+            "58CC9B2C0AA6FF4EA3974A00F0FBBB0E": {
+                "name": "Venerable Elder",
+                "desc": "Only through great age comes great wisdom. And wisdom tells you that your knees hurt.",
+                "filename": "VAN_HairColor_VenerableElder.uexp"
+            }
+        }
+    ],
+    "Headwear": [
+        {
+            "D3ADA6C8DDEE1E4D8827751A2835C7EC": {
+                "name": "Slick Investigator",
+                "desc": "Associated with a high-strung yet entertaining personality type.",
+                "filename": "VAN_Headwear_AceV.uexp"
+            },
+            "F2387183C4F9B44987CC2F18B0A59CAB": {
+                "name": "Full Fro",
+                "desc": "It's a statement. And that statement is \"cool\".",
+                "filename": "VAN_Headwear_Afro01.uexp"
+            },
+            "5A3E6F554B50564F853DC4E27BD5D146": {
+                "name": "Box Fade",
+                "desc": "Iconic and bold. Usually found in the company of boomboxes.",
+                "filename": "VAN_Headwear_Afro02.uexp"
+            },
+            "D57BAAB9409F64448940D9D9DA963284": {
+                "name": "Light Fro",
+                "desc": "For the cool cat on the go.",
+                "filename": "VAN_Headwear_Afro03.uexp"
+            },
+            "A0433017072D2B448D0C8BD6BB2B4D07": {
+                "name": "Massive Fro",
+                "desc": "Looks cool and protects your head as well as any helmet?",
+                "filename": "VAN_Headwear_Afro04.uexp"
+            },
+            "0410205E49EE4E4FBD28988D577F867F": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_Beanie_Green.uexp"
+            },
+            "9A412C8C34A1ED43B3B07C55FCD591D7": {
+                "name": "Beanie - Uniform",
+                "desc": "It gets cold down there sometimes. Styled to fit your armor.",
+                "filename": "VAN_Headwear_Beanie_Uniform.uexp"
+            },
+            "45DB67C731EB644FB210D13C342E39CD": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_Beanie_White.uexp"
+            },
+            "76C062221B44F54C9752463449F27EA7": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_Beret_Red.uexp"
+            },
+            "CD3579D085712F49A62036ED6D2BA460": {
+                "name": "Beret - Uniform",
+                "desc": "A reminder of your service. Styled to fit your uniform.",
+                "filename": "VAN_Headwear_Beret_Uniform.uexp"
+            },
+            "8F33C4A6A0D0F24BAA4319B29F8CB23B": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_Beret_White.uexp"
+            },
+            "C7BE1AD62886B14AA1A9DD31A56D3A48": {
+                "name": "The Bulldog",
+                "desc": "Breaking class barriers for hundreds of years, this classy piece feels just as home on a ruffian as on a gentleman. Given DRG's employee politics, the latter is more rare lately.",
+                "filename": "VAN_Headwear_Bulldog.uexp"
+            },
+            "861DDA23E409DF42B8757106C2A8750E": {
+                "name": "Businesslike",
+                "desc": "Does the job",
+                "filename": "VAN_Headwear_Businesslike.uexp"
+            },
+            "270826A07A3EA142B0E2192DA0D1C13C": {
+                "name": "Businesslike",
+                "desc": "Does the job",
+                "filename": "VAN_Headwear_BusinesslikeFREE.uexp"
+            },
+            "C74827BA72E6C145BB5D9B785425E888": {
+                "name": "Cap - Bright Red",
+                "desc": "A bold fashion statement.",
+                "filename": "VAN_Headwear_Cap_BrightRed.uexp"
+            },
+            "CAB2DBF59450364C8BD661FCB542062C": {
+                "name": "Cap - Gun Metal",
+                "desc": "Sombre and intimidating.",
+                "filename": "VAN_Headwear_Cap_Gunmetal.uexp"
+            },
+            "C8C0E1567921154B80970DFC6EB66A8B": {
+                "name": "Cap - Uniform",
+                "desc": "For the professional. Matches your currently worn armor.",
+                "filename": "VAN_Headwear_Cap_Uniform.uexp"
+            },
+            "20F545578B422F41A6BD67EAE9289CA6": {
+                "name": "Classic Mining Helmet - Uniform",
+                "desc": "Some models just don't go out of style. Styled to match your armor.",
+                "filename": "VAN_Headwear_ClassicMiningHelmet_Styled.uexp"
+            },
+            "2690981E36F7984ABF4F70BD2BDA0C28": {
+                "name": "Classic Mining Helmet - Yellow",
+                "desc": "Some models just don't go out of style.",
+                "filename": "VAN_Headwear_ClassicMiningHelmet_Yellow.uexp"
+            },
+            "A88FAB6B2932474AA5774509E133F687": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_CleanShave.uexp"
+            },
+            "528A9742C84B984FBBA84EC24EA9CF51": {
+                "name": "Heavy Duty Fixer",
+                "desc": "Keeps both yer noggin an' peepers safe.",
+                "filename": "VAN_Headwear_Climber.uexp"
+            },
+            "2ECCECFBB9B85E4380428B87896E2D74": {
+                "name": "Sweep-back",
+                "desc": "Hardly the height of fashion, but still the sign of a powerful personality.",
+                "filename": "VAN_Headwear_ClownSpike.uexp"
+            },
+            "04B14D9AF1473D46992B6ED1CE0404BE": {
+                "name": "Corporate Marine",
+                "desc": "Grim and infamous along the Outer Rim.",
+                "filename": "VAN_Headwear_CorporateMarine.uexp"
+            },
+            "6E45B7D218BA914A944B9EDF87E70D88": {
+                "name": "Cowpoke - Brown",
+                "desc": "A redblooded classic.",
+                "filename": "VAN_Headwear_Cowpoke_Brown.uexp"
+            },
+            "71D97C7597BB32438252140B6041B859": {
+                "name": "Cowpoke - White",
+                "desc": "Reeks of class. Or money. Either or, really.",
+                "filename": "VAN_Headwear_Cowpoke_White.uexp"
+            },
+            "B931C67D757BC341865470FEFB31A702": {
+                "name": "Crest",
+                "desc": "What time is it? It's Slayin' Time.",
+                "filename": "VAN_Headwear_Crest.uexp"
+            },
+            "3B7AE153AB02944B87EAC7266F81993D": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_DLC01A.uexp"
+            },
+            "D4DF085E014F0846B989598970A8BF71": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_DLC01B.uexp"
+            },
+            "F30788A9DE68CA4BBBA020ABB858F33A": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_DLC03A.uexp"
+            },
+            "158756A9D63A554F920974EDE14780C9": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_DLC03B.uexp"
+            },
+            "ADA530D41A01AB4AB7105402A107A1AF": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_DLC04A.uexp"
+            },
+            "9E34CE4EE023A54B805C4D3C43A1EA3D": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_DLC04B.uexp"
+            },
+            "7EBBA25F17715A4FB39A06F4D8B5E37D": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_DLC_StreamerDriller.uexp"
+            },
+            "86BBC7EDEB655441B0C7F005439DB864": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_DLC_StreamerEngineer.uexp"
+            },
+            "6F42349E36ACBA4699460BD9B531B02C": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_DLC_StreamerGunner.uexp"
+            },
+            "7819A3816BBE394096C082F1C7C433DE": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_DLC_StreamerScout.uexp"
+            },
+            "281DAA771F78D641A001CE913A8C5221": {
+                "name": "Evil Eye",
+                "desc": "Dwarves don't use sights. But, a bit of AR overlay never hurt anyone. Well, not the ones using it anyway. It's another story for those it's aimed at.",
+                "filename": "VAN_Headwear_EvilEye.uexp"
+            },
+            "6573B2D3EAA64046A0C37F40A1D00701": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_FieldRepairs_EyepatchSkullplate.uexp"
+            },
+            "E5E009C0068FEF4581235FEE0B1CFAE9": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_FieldRepairs_GogglesSkullplate.uexp"
+            },
+            "091A53120EE4254E9E6565E592D83A1F": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_FieldRepairs_NoseguardSkullplate.uexp"
+            },
+            "3730930601C47743828E75846193674D": {
+                "name": "The Franklin",
+                "desc": "Exudes an intangible air of Liberty and Sass.",
+                "filename": "VAN_Headwear_Franklin.uexp"
+            },
+            "4309A48CC3E79A4185ADCBCB31D92935": {
+                "name": "Gloomstalker Mask MK1",
+                "desc": "A highly advanced piece of kit, equipped with more tech than a small electronics store. The MK1 comes with no lower facial cover, perfect for showing off your beard.",
+                "filename": "VAN_Headwear_GloomstalkerMaskMK1.uexp"
+            },
+            "77E53898E349B349B222CBCE6B520B36": {
+                "name": "Gloomstalker Mask MK2",
+                "desc": "A highly advanced piece of kit, equipped with more tech than a small electronics store. The MK2 comes with a full gasmask, as handy on Hoxxes as in the locker room.",
+                "filename": "VAN_Headwear_GloomstalkerMaskMK2.uexp"
+            },
+            "A3672B2155FEF246A89EF460520B7716": {
+                "name": "Gloomstalker Mask MK3",
+                "desc": "A highly advanced piece of kit, equipped with more tech than a small electronics store. The MK3 comes with extended communications array, enabling you to tell off your teammates from any range.",
+                "filename": "VAN_Headwear_GloomstalkerMaskMK3.uexp"
+            },
+            "3649623409F5224FA46030DEE9C9E603": {
+                "name": "Goggle Cap - Bright Red",
+                "desc": "Stylish and practical!",
+                "filename": "VAN_Headwear_GoggleCap_BrightRed.uexp"
+            },
+            "A68670D0385F60429D042DAFD60A728B": {
+                "name": "Goggle Cap - Gun Metal",
+                "desc": "Stylish and practical!",
+                "filename": "VAN_Headwear_GoggleCap_GunMetal.uexp"
+            },
+            "76EA459E305AF54EBBA21D9860B9E97E": {
+                "name": "Goggle Cap - Uniform",
+                "desc": "Stylish and practical! Styled to fit your armor.",
+                "filename": "VAN_Headwear_GoggleCap_Uniform.uexp"
+            },
+            "A975A4E11C8BD24BA333717FC182685F": {
+                "name": "Goggle Cap - Uniform",
+                "desc": "Stylish and practical! Styled to fit your armor.",
+                "filename": "VAN_Headwear_GoggleCap_Uniform_FREE.uexp"
+            },
+            "DFC96B5F9B3ACD47955EB2CEE17A6884": {
+                "name": "Ushanka",
+                "desc": "It can get cold down there, after all.",
+                "filename": "VAN_Headwear_Gorba.uexp"
+            },
+            "A43EF9AE04F83441B30E041F4265DC17": {
+                "name": "Greaser",
+                "desc": "Worthy of a King under the Mountain.",
+                "filename": "VAN_Headwear_Greaser.uexp"
+            },
+            "B9DE436430706747B647358FD0AF1ED7": {
+                "name": "Great Pappy's Doughboy",
+                "desc": "Not all relics need be made of gold. This one's been in the clan for generations.",
+                "filename": "VAN_Headwear_GreatPappysDoughboy.uexp"
+            },
+            "B18A57F1C2FDE4488C63020614A2C5D3": {
+                "name": "The Witching Hour",
+                "desc": "Smells faintly of pumpkin spice.",
+                "filename": "VAN_Headwear_Halloween2019.uexp"
+            },
+            "B74D2AA0A0175C4492140E719F5C410D": {
+                "name": "Horned Horror",
+                "desc": "Definitely not made to look like the president of DRG.",
+                "filename": "VAN_Headwear_Halloween2020.uexp"
+            },
+            "2ADD29B79854204894FD68EAF2B0E1DE": {
+                "name": "AR Headset",
+                "desc": "Long range communication capability and tactical heads-up display. Very cyber.",
+                "filename": "VAN_Headwear_Headset01.uexp"
+            },
+            "42841828DA66414DB992BE2D14F8FAEB": {
+                "name": "AR Headset",
+                "desc": "Long range communication capability and tactical heads-up display. Very cyber.",
+                "filename": "VAN_Headwear_Headset01FREE.uexp"
+            },
+            "13A4B455385A2740938F2B665B606F77": {
+                "name": "Heatwave",
+                "desc": "Don't let the heat get to you.",
+                "filename": "VAN_Headwear_HeadWrap.uexp"
+            },
+            "65DE56A5D82A804C8F3B485FBB68FB48": {
+                "name": "Iron Cyclops",
+                "desc": "One big tech eye sees everything!",
+                "filename": "VAN_Headwear_HelmetCyclops.uexp"
+            },
+            "0CC6227F5466364F89BCAC0DD9DD02AF": {
+                "name": "Heavy Duty Mining Helmet",
+                "desc": "Hardened glass goggles and reinforced steel. Noone's gonna rock your noggin.",
+                "filename": "VAN_Headwear_HelmetGoggles01.uexp"
+            },
+            "9A7AD565128B0B43973593E4799F7180": {
+                "name": "Heavy Duty Mining Helmet",
+                "desc": "Hardened glass goggles and reinforced steel. Noone's gonna rock your noggin.",
+                "filename": "VAN_Headwear_HelmetGoggles01FREE.uexp"
+            },
+            "8552816B69C7BD499971EAC2634C3D4C": {
+                "name": "Head Honcho",
+                "desc": "Worn by true company men, or just those with exceptional shouting and/or ordering capabilities. ",
+                "filename": "VAN_Headwear_HelmetHardhatGSG.uexp"
+            },
+            "6C761BE349A37C44BB97307A89C079CC": {
+                "name": "Techy Hard Hat",
+                "desc": "Mission Control needs his eyes and ears on the ground, after all.",
+                "filename": "VAN_Headwear_HelmetHardhatRadio.uexp"
+            },
+            "933CC19562502A479570D5AE0FFBAEAE": {
+                "name": "Heritage Miner",
+                "desc": "Evocative of a bygone age.",
+                "filename": "VAN_Headwear_HeritageMiner.uexp"
+            },
+            "8F3DFE2A24DDCA49B46C718EFC126BDB": {
+                "name": "Grim Specter - Full Face",
+                "desc": "A most imposing visage.",
+                "filename": "VAN_Headwear_HeritageMiner02.uexp"
+            },
+            "E43EE34B9D19FB489F018799254468DB": {
+                "name": "Grim Specter - Half Face",
+                "desc": "A most imposing visage.",
+                "filename": "VAN_Headwear_HeritageMiner03.uexp"
+            },
+            "E3A37A5D2715254582C6CB4566CFBBC7": {
+                "name": "Industrial Goggles",
+                "desc": "Handy for keeping shrapnel and offal out of your baby blues.",
+                "filename": "VAN_Headwear_IndustrialGoggles.uexp"
+            },
+            "4A4CDF2023ED554ABF5C252D14F5389B": {
+                "name": "Long Mane",
+                "desc": "A beard for the back of your head!",
+                "filename": "VAN_Headwear_LongMane.uexp"
+            },
+            "017291AF3DE2464EACDCD60EDDDC4AB6": {
+                "name": "Messy Mane",
+                "desc": "Who needs showers anyway? Straight out of bed and straight to work!",
+                "filename": "VAN_Headwear_MessyMane.uexp"
+            },
+            "38321FC594D8B04985B0C14B852FA819": {
+                "name": "Cropped Mohawk",
+                "desc": "Short and brash, this shows you mean business.",
+                "filename": "VAN_Headwear_MohawkLow.uexp"
+            },
+            "FA49BA5B0B80464FA8CD48B964F72836": {
+                "name": "Cropped Mohawk",
+                "desc": "Short and brash, this shows you mean business.",
+                "filename": "VAN_Headwear_MohawkLow_GUNNER.uexp"
+            },
+            "26C18FE043B0E44882A7329B27FE9A41": {
+                "name": "Spiked Mohawk",
+                "desc": "Punk ain't dead.",
+                "filename": "VAN_Headwear_MohawkSpiked.uexp"
+            },
+            "9A11B02C1DE5B64083B2AC509661FD47": {
+                "name": "Night Vision Goggles",
+                "desc": "The catalogue made these look really cool. Regrettably, they don't work at all. But, they DO look cool.",
+                "filename": "VAN_Headwear_NightVisionGogglesNew.uexp"
+            },
+            "0315E1CE04B1B04EB7D4084E15659FE5": {
+                "name": "Flight Commander",
+                "desc": "But why does it make you want to sup with camels?",
+                "filename": "VAN_Headwear_OddBall.uexp"
+            },
+            "587E3CB7F1EBE443ACB223C09D01DA94": {
+                "name": "Oktoberfest Fedora",
+                "desc": "The incomparable hat of legend, commemorating a holiday holding a very special place in the heart of most dwarves.",
+                "filename": "VAN_Headwear_Oktoberfest.uexp"
+            },
+            "EB84DD847132DB4787AB9D380E542339": {
+                "name": "Party Hat - Year One",
+                "desc": "Happy birthday, DRG! A special memento for every employee present during the One Year In Orbit celebrations.",
+                "filename": "VAN_Headwear_PartyHat_Year01.uexp"
+            },
+            "2AC3F4701722B34983F6AC56AA9B833D": {
+                "name": "Party Hat - Year Two",
+                "desc": "Happy birthday, DRG! A special memento for every employee present during the Two Years In Orbit celebrations.",
+                "filename": "VAN_Headwear_PartyHat_Year02.uexp"
+            },
+            "D581DDB7FB221C4C842FA0EE52A75B1F": {
+                "name": "Party Hat - Year Three",
+                "desc": "Happy birthday, DRG! A special memento for every employee present during the Three Years In Orbit celebrations.",
+                "filename": "VAN_Headwear_PartyHat_Year03.uexp"
+            },
+            "465DB9B55AB90042A74F6543224EF239": {
+                "name": "Pumpkin King",
+                "desc": "It's getting spoopy in here...!",
+                "filename": "VAN_Headwear_PumpkinKing.uexp"
+            },
+            "7956915D7BC4A74B978A103663F2BE3B": {
+                "name": "First Blood",
+                "desc": "It is time. Time for extreme violence.",
+                "filename": "VAN_Headwear_Rambo.uexp"
+            },
+            "000DDE525F0D93449B0273679E34C7C5": {
+                "name": "Ravager",
+                "desc": "Supercaliberballisticexplosialidocious!",
+                "filename": "VAN_Headwear_RavagerNew.uexp"
+            },
+            "075A49663EDEDE4BA62AA9F3C4700D0B": {
+                "name": "Reclamator Helmet",
+                "desc": "\"Lifeless eyes, black eyes, like a doll's eyes. When he comes at ya, doesn't seem to be livin'.\" The Reclamator helmet is a simple design that commands instant respect.",
+                "filename": "VAN_Headwear_Reclamator.uexp"
+            },
+            "353754CB4488504AB67B182352B5F645": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Headwear_ScaleBrigade.uexp"
+            },
+            "10CD9A35512F6440A10BC1027E28015E": {
+                "name": "Top Knot",
+                "desc": "Usually seen in the company of tambourines.",
+                "filename": "VAN_Headwear_ShortTail.uexp"
+            },
+            "F21C5E76C2B41F4FA3A29FB56FC541EF": {
+                "name": "Sixpence",
+                "desc": "You load sixteen tons, and what do you get? A nice hat, apparently.",
+                "filename": "VAN_Headwear_Sixpence.uexp"
+            },
+            "947E3B6976DD6444A49B7183AABAAE65": {
+                "name": "Skull Cap",
+                "desc": "A no-nonsense, simple design.",
+                "filename": "VAN_Headwear_SkullCap.uexp"
+            },
+            "4F67116EE031C545B4ABF6F1C4544CF9": {
+                "name": "Slit Helmet",
+                "desc": "Good protection, while still allowing the beard to breathe.",
+                "filename": "VAN_Headwear_SlitHelmet.uexp"
+            },
+            "ED60A11AEA97DA43A210988A80D09EC9": {
+                "name": "Space Force",
+                "desc": "It is time for a new era of combat. The combat of SPACE!",
+                "filename": "VAN_Headwear_SpacePilot.uexp"
+            },
+            "339AF8C0B7AE1B4AB8B76976B9E519A0": {
+                "name": "Bolted Marauder",
+                "desc": "It might be historically incorrect, but as a trope it is hard to deny the inherent coolness.",
+                "filename": "VAN_Headwear_SteamAwards2020.uexp"
+            },
+            "059EABDE0A2BA441A642A2F7D29D24E8": {
+                "name": "Award: Steamy Helmet",
+                "desc": "Special Headwear for the Sept. 2019 Steam Free Weekend celebrations! Don't mind the condensation - it's good for your scalp!",
+                "filename": "VAN_Headwear_SteamHelmet01.uexp"
+            },
+            "757ADE2F3E80364F85D3E23B5C8172F2": {
+                "name": "Skeleton Crew",
+                "desc": "Promoted as a breakthrough in wearable holographics, this helmet is only awarded to the most dedicated of DRG's employees. The Skeleton Crew - the Few, the Hardy, the Strong.",
+                "filename": "VAN_Headwear_SupporterGSG.uexp"
+            },
+            "CC66A984B3AE164C8E11C05426B07739": {
+                "name": "DIver's Bell",
+                "desc": "Not exactly a combat helmet, but one can't deny that it has a certain rustic charm.",
+                "filename": "VAN_Headwear_SupporterGSG_Alt01.uexp"
+            },
+            "2C7A6F180DBA854C86133DB1BCEECC88": {
+                "name": "Full Headwrap",
+                "desc": "Lets the frugal dwarf weather even the harshest sandstorm or blizzard.",
+                "filename": "VAN_Headwear_Tagelmust01.uexp"
+            },
+            "12A28277E3469044999E763B7912B84F": {
+                "name": "Goggled Headwrap",
+                "desc": "And you can even store a sandwich inside!",
+                "filename": "VAN_Headwear_Tagelmust02.uexp"
+            },
+            "EA7180CF96448A4CAB29B49172C3FA18": {
+                "name": "The Ace of Spades",
+                "desc": "In honor of a motoring head.",
+                "filename": "VAN_Headwear_TheAceOfSpades.uexp"
+            },
+            "BFA920D355C5054C92D3E2891CB5898A": {
+                "name": "The Gamekeeper",
+                "desc": "\"Ah, go boil yer heads, both of yeh.\"",
+                "filename": "VAN_Headwear_TheGamekeeper.uexp"
+            },
+            "E3262E0F64C14A4EBB0825454CF0EE80": {
+                "name": "Stay Frosty",
+                "desc": "For all the jolly, happy souls out there.",
+                "filename": "VAN_Headwear_Xmas2020_Snowman.uexp"
+            },
+            "7E5F17AD19714345952C0A1AE2B7AC2F": {
+                "name": "Yuletide Sock",
+                "desc": "Does this mean the wearer is a lump of coal?",
+                "filename": "VAN_Headwear_Xmas2020_Sock.uexp"
+            },
+            "E5A1E0B62DB8D44BBDDE07D6F201B537": {
+                "name": "Frosty Top Hat",
+                "desc": "Something about this old top hat they found seems a bit off...",
+                "filename": "VAN_Headwear_Xmas2020_TopHat.uexp"
+            },
+            "F7778610C4EE57429D0FE3E072D0C44B": {
+                "name": "Yuletide Cap",
+                "desc": "T'was the Night before Yuletide, and all through the Mine...",
+                "filename": "VAN_Headwear_XmasHat.uexp"
+            },
+            "7D0F0AF81E5F5E4E909E6C21A3A5F6B2": {
+                "name": "Antler Cap",
+                "desc": "Wearing this fanciful yule cap, there is no doubt at all you'll go down in history.",
+                "filename": "VAN_Headwear_XmasHat2019.uexp"
+            }
+        }
+    ],
+    "Moustaches": [
+        {
+            "EF3F4F0661FC8D46812EB33B0637897E": {
+                "name": "Frizzy Handlebar",
+                "desc": "For some reason, you have an urge to dream up maniac machines and colorful contraptions.",
+                "filename": "VAN_Moustache_011.uexp"
+            },
+            "F7F3F0164EAE58429C902AE4A6A08071": {
+                "name": "The Watson",
+                "desc": "A historical icon. Harrumphing required.",
+                "filename": "VAN_Moustache_012.uexp"
+            },
+            "F4CFB7387422AD44AF1DC5B7C39000CC": {
+                "name": "The Optimist",
+                "desc": "Do you feel that? That manic giggle building, deep in your stomach? It must be let free-hee-hee-hee!",
+                "filename": "VAN_Moustache_013.uexp"
+            },
+            "52908C66CF29B94E97BE69FCB3872672": {
+                "name": "Droopy Crest",
+                "desc": "Worthy of a statesman.",
+                "filename": "VAN_Moustache_014.uexp"
+            },
+            "23BDA21C5AD4824C898E73D73154F2A4": {
+                "name": "Crescent Moon",
+                "desc": "Bask in the radiance.",
+                "filename": "VAN_Moustache_015.uexp"
+            },
+            "55CED858E63CD043A3257B21B7926F94": {
+                "name": "Curly Optimist",
+                "desc": "For when every day is just topsy-turvy!",
+                "filename": "VAN_Moustache_A003_CurlyOptimist.uexp"
+            },
+            "61A5F62545CDF445A4FA76FAFA9CEF8E": {
+                "name": "Spiky Neurotic",
+                "desc": "I think that's enough coffee for one day.",
+                "filename": "VAN_Moustache_A004_SpikyNeurotic.uexp"
+            },
+            "F806CA3C6AAF024B9563E6B048CFEB85": {
+                "name": "Exquisite Handlebar",
+                "desc": "Dapper! For those long, philosophical evenings of discussing the proper use of elf ears in everyday life.",
+                "filename": "VAN_Moustache_A005_ExquisiteHandlebar.uexp"
+            },
+            "7E15F5F5DD74C64093C6A71DE595ACA8": {
+                "name": "Lowrider",
+                "desc": "A no-nonsense moustache for a no-nonsense dwarf.",
+                "filename": "VAN_Moustache_A006_Lowrider.uexp"
+            },
+            "8BAA8ACAE543F942A97741EB2BC8A6C9": {
+                "name": "Bushy Goodguy",
+                "desc": "Lots of huffing and puffing is required to wear this one.",
+                "filename": "VAN_Moustache_A007_BushyGoodguy.uexp"
+            },
+            "4578AF1EB393ED44975A704C0CE8C924": {
+                "name": "Marshall",
+                "desc": "For some reason, this one makes you yearn for wearing denim...?",
+                "filename": "VAN_Moustache_A008_Marshall.uexp"
+            },
+            "2534842703D28B40A281EC995B2DFB84": {
+                "name": "Dandy Handlebar",
+                "desc": "What ho, old sport? A good choice for the discerning dwarf.",
+                "filename": "VAN_Moustache_A009_DandyHandlebar.uexp"
+            },
+            "63FBDD5A2A7C7B409CD0DD1AEB1512F0": {
+                "name": "Magnificent Raider",
+                "desc": "Bushy and fierce - bound to strike terror into the hearts of anyone in your path!",
+                "filename": "VAN_Moustache_A010_MagnificentRaider.uexp"
+            },
+            "F056382C58B5374B96E3D3D2FC353BF0": {
+                "name": "Bangled Braids",
+                "desc": "Mum left you those bangles. And by gum, you are going to wear them!",
+                "filename": "VAN_Moustache_B001_BangledBraids.uexp"
+            },
+            "158BD2B53090F34995C10077063C1A84": {
+                "name": "Bound Braids",
+                "desc": "A timeless classic for the full-moustachioed gentleman.",
+                "filename": "VAN_Moustache_B003_BoundBraids.uexp"
+            },
+            "7BBAB0213905C64597A2E1E2A9C52E08": {
+                "name": "Bismarck",
+                "desc": "Dignified. Classic. The look of a refined soul.",
+                "filename": "VAN_Moustache_Bismarck.uexp"
+            },
+            "8F8F26D4A737C346AC96BBDAB3ADC18B": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Moustache_CleanShave.uexp"
+            },
+            "D0B06A3C8618D14BA651EF02E1F0E81E": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Moustache_CleanShaveFREE.uexp"
+            },
+            "3EF5488EA057464BBB9443E73EFE6708": {
+                "name": "Droopy Prospector",
+                "desc": "A thoughtful and wise look for the discerning miner.",
+                "filename": "VAN_Moustache_DroopyProspector.uexp"
+            },
+            "E3E51B9E0EBB97429D90844244EDE92A": {
+                "name": "Elegant Handlebar",
+                "desc": "Ain't no man can take from you what's yours.",
+                "filename": "VAN_Moustache_ElegantHandlebar.uexp"
+            },
+            "4050E4232DB54C418DC94EDF2E2E0A98": {
+                "name": "Epic Handlebar",
+                "desc": "It doesn't get much more magnificent than this.",
+                "filename": "VAN_Moustache_EpicHandlebar.uexp"
+            },
+            "5736E5696BCE0D4C9467AD7BD0814689": {
+                "name": "Hogan",
+                "desc": "",
+                "filename": "VAN_Moustache_Hogan.uexp"
+            },
+            "B2E380130BC1E249A3AEFF24B516A540": {
+                "name": "Mighty Walrus",
+                "desc": "Just magnificent",
+                "filename": "VAN_Moustache_MightyWalrus.uexp"
+            },
+            "5BCC3FD05004894BBEF73402BC087063": {
+                "name": "Mighty Walrus",
+                "desc": "Just magnificent",
+                "filename": "VAN_Moustache_MightyWalrusFREE.uexp"
+            },
+            "6D0C04A85A8EEE48A35CBBC7582699BC": {
+                "name": "The Swanson",
+                "desc": "A classic display of subtle, raw power.",
+                "filename": "VAN_Moustache_Swanson.uexp"
+            }
+        }
+    ],
+    "Sideburns": [
+        {
+            "1AC5333D70B9344AB3EFC2D0D5248134": {
+                "name": "Collected Lawmaker",
+                "desc": "Wear these and feel the respect of your peers.",
+                "filename": "VAN_Sideburns_008.uexp"
+            },
+            "17F119732370D842A6CF97554218CAC0": {
+                "name": "Frazzled Crest",
+                "desc": "For that wise-yet-rambling look.",
+                "filename": "VAN_Sideburns_009.uexp"
+            },
+            "D29D0DDABD047C43BE0509982DB57122": {
+                "name": "Trim Doubledecker",
+                "desc": "An eccentric look, to be sure. But such craftsmanship...!",
+                "filename": "VAN_Sideburns_010.uexp"
+            },
+            "172886218300EE4FB4D51CF18B78B966": {
+                "name": "Immense Danglies",
+                "desc": "Silky soft! What conditioner do you use?",
+                "filename": "VAN_Sideburns_A001_ImmenseDanglies.uexp"
+            },
+            "D70225ED33671745B2F6C019C0213CDE": {
+                "name": "Braided Bangles",
+                "desc": "An unusual set of sideburns, but with a certain air of mystique.",
+                "filename": "VAN_Sideburns_A002_BraidedBangles.uexp"
+            },
+            "5D65A62D4FF51848B560833B85660B4F": {
+                "name": "Pointed Noble",
+                "desc": "Just oozes prestige and nobility",
+                "filename": "VAN_Sideburns_A003_PointedNoble.uexp"
+            },
+            "C4E7184FAEF28E4F8E50D11B1B968804": {
+                "name": "The Thickest",
+                "desc": "For some dwarves, it's all about VOLUME!",
+                "filename": "VAN_Sideburns_A004_TheThickest.uexp"
+            },
+            "AFEF616562A05E4D8FF18CB3631FF416": {
+                "name": "Upbeat Youngling",
+                "desc": "You can just SMELL the positivity!",
+                "filename": "VAN_Sideburns_A005_UpbeatYoungling.uexp"
+            },
+            "C55610E4539A36489DEEF0A5710D5309": {
+                "name": "Berserker",
+                "desc": "Anger Management Courses every tuesday at 7 on Deck 12.",
+                "filename": "VAN_Sideburns_A006_Berserker.uexp"
+            },
+            "BBF93120B839B949A0A01D2017C209A4": {
+                "name": "Valiant Berserker",
+                "desc": "For when the Anger Management Course tells you that it's okay and in the Company's favor to be angry.",
+                "filename": "VAN_Sideburns_A007_ValiantBerserker.uexp"
+            },
+            "74DE119657DFC54689943FBF137D1926": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Sideburns_CleanShave.uexp"
+            },
+            "EED7E0AD9A1D1F429DD5A3EBD8EA99B4": {
+                "name": "",
+                "desc": "",
+                "filename": "VAN_Sideburns_CleanShaveFREE.uexp"
+            },
+            "E02558DE6392B64A98EB9E9844DC39B7": {
+                "name": "Cropped Authoritarian",
+                "desc": "If sideburns could talk, these would tell you to stand up straight.",
+                "filename": "VAN_Sideburns_CroppedAuthoritarian.uexp"
+            },
+            "9F03B843586A06458EB2CA5A59CF839F": {
+                "name": "Cropped Authoritarian",
+                "desc": "If sideburns could talk, these would tell you to stand up straight.",
+                "filename": "VAN_Sideburns_CroppedAuthoritarianFREE.uexp"
+            },
+            "99EA902DE4B11840997113ED8F41D08E": {
+                "name": "Long Droopy",
+                "desc": "Basically half a beard on their own",
+                "filename": "VAN_Sideburns_LongDroopy.uexp"
+            },
+            "55C5069CBB866A43ABF0256FCB1446A4": {
+                "name": "Mighty Muttonchops",
+                "desc": "A classic going back centuries",
+                "filename": "VAN_Sideburns_MightyMuttonchops.uexp"
+            }
+        }
+    ],
+    "SkinColors": [
+        {
+            "CF83FA06F438F54DA142AD63C8573CD1": {
+                "name": "Beige",
+                "desc": "Dusty, sandy, left out in the sun for too long.",
+                "filename": "VAN_SkinColor_Beige.uexp"
+            },
+            "BBA8E3CCA5B48F4B852808A560FD7A7D": {
+                "name": "Brown",
+                "desc": "Darkly romantic.",
+                "filename": "VAN_SkinColor_Brown.uexp"
+            },
+            "51E0CADD91ECAF48AFB95A6DCD00C760": {
+                "name": "Umber Brown",
+                "desc": "Deep and rich - just like the caves of Hoxxes!",
+                "filename": "VAN_SkinColor_BrownUmber.uexp"
+            },
+            "A39CAE146C09034BA107940728EC29B7": {
+                "name": "Frozen",
+                "desc": "Brrr! There's an ill wind a-blowin'.",
+                "filename": "VAN_SkinColor_Frozen.uexp"
+            },
+            "FEAD3E6C012689489E520636FBEA04E6": {
+                "name": "Gold",
+                "desc": "Fabulously shiny.",
+                "filename": "VAN_SkinColor_Gold.uexp"
+            },
+            "5A35E039C22CC4469C0D3CDC358E7B9A": {
+                "name": "Jaundice",
+                "desc": "Perhaps it's time to lower your intake of Mactera Brew. For a while.",
+                "filename": "VAN_SkinColor_Jaundice.uexp"
+            },
+            "3FA481D2C949B54BA898E1B94D8C5F55": {
+                "name": "Pale",
+                "desc": "Feeling a bit chilly? Or have you seen a ghost?",
+                "filename": "VAN_SkinColor_Pale.uexp"
+            },
+            "D3B795F10ECC9045A632B2CF209079CD": {
+                "name": "Pumpkin",
+                "desc": "You really ought to see a doctor about this.",
+                "filename": "VAN_SkinColor_Pumpkin.uexp"
+            },
+            "ACDAB7EF49D84C4EBE3626C9C3BC13D7": {
+                "name": "Ruddy",
+                "desc": "A healthy, ruddy hue.",
+                "filename": "VAN_SkinColor_Ruddy.uexp"
+            },
+            "F927A6C9A7E24942A20591C62552E1D2": {
+                "name": "Ghoul",
+                "desc": "The Midnight Hour is close at hand.",
+                "filename": "VAN_SkinColor_Sickly.uexp"
+            }
+        }
+    ]
+}
