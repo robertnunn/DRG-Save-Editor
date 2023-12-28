@@ -11,6 +11,7 @@ from PySide2.QtWidgets import (
     QAction,
     QLineEdit,
 )
+
 from PySide2.QtGui import QColor, QCursor
 from fbs_runtime.application_context.PySide2 import ApplicationContext
 from copy import deepcopy
@@ -20,7 +21,9 @@ import struct
 import re
 from pprint import pprint as pp
 import json
-import winreg
+from sys import platform
+if platform == "win32":
+    import winreg
 
 
 class TextEditFocusChecking(QLineEdit):
@@ -766,29 +769,54 @@ def make_save_file(file_path, change_data):
 
     # this is currently broken, don't care enough to put more effort into fixing it.
     # the problem seems to be related to the \x5D in the middle of the first hex string,
-    # this changes to \x6D when going from 1->2 overclocks. Similarly, the \x10 in the 
+    # this changes to \x6D when going from 1->2 overclocks. Similarly, the \x10 in the
     # middle of the second hex string (\x74\x79\x00\x10 <- this one) changes to \x20
     # when going from 1->2 overclocks. My testing involved one weapon OC and one cosmetic OC.
     # If someone can provide a save file with more than 2 overclocks waiting to be forged,
     # that might help figure it out, but I'm currently stumped.
-    # 
-    # if pos > 0:
-    #     num_forged = struct.unpack("i", save_data[pos + 63 : pos + 67])[0]
-    #     unforged_ocs = new_values["unforged"]
-    #     if len(unforged_ocs) > 0:
-    #         ocs = (
-    #             b"\x10\x00\x00\x00\x4F\x77\x6E\x65\x64\x53\x63\x68\x65\x6D\x61\x74\x69\x63\x73\x00\x0E\x00\x00\x00\x41\x72\x72\x61\x79\x50\x72\x6F\x70\x65\x72\x74\x79\x00\x5D\x00\x00\x00\x00\x00\x00\x00\x0F\x00\x00\x00\x53\x74\x72\x75\x63\x74\x50\x72\x6F\x70\x65\x72\x74\x79\x00\x00"
-    #             + struct.pack("i", len(unforged_ocs))
-    #             + b"\x10\x00\x00\x00\x4F\x77\x6E\x65\x64\x53\x63\x68\x65\x6D\x61\x74\x69\x63\x73\x00\x0F\x00\x00\x00\x53\x74\x72\x75\x63\x74\x50\x72\x6F\x70\x65\x72\x74\x79\x00\x10\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x47\x75\x69\x64\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
-    #         )
-    #         uuids = [bytes.fromhex(i) for i in unforged_ocs.keys()]
-    #         for i in uuids:
-    #             ocs += i
-    #     else:
-    #         ocs = b""
-    #     save_data = (
-    #         save_data[: pos + (num_forged * 16) + 141] + ocs + save_data[end_pos:]
-    #     )
+    if pos > 0:
+        num_forged = struct.unpack("i", save_data[pos + 63 : pos + 67])[0]
+        unforged_ocs = new_values["unforged"]
+
+        schematic_save_marker = b"SchematicSave"
+        schematic_save_offset = 33
+        schematic_save_pos = save_data.find(schematic_save_marker) + schematic_save_offset
+        schematic_save_end_pos = schematic_save_pos + 8
+        schematic_save_size = b""
+
+        if len(unforged_ocs) > 0:
+            ocs = (
+                b"\x10\x00\x00\x00\x4F\x77\x6E\x65\x64\x53\x63\x68\x65\x6D\x61\x74\x69\x63\x73\x00\x0E\x00\x00\x00\x41\x72\x72\x61\x79\x50\x72\x6F\x70\x65\x72\x74\x79\x00"
+                # number of bytes between position of first "OwnedSchematic" and end_pos, -62, as a 64bit unsigned integer
+                + struct.pack("Q", 139 + len(unforged_ocs)*16 - 62)
+                + b"\x0F\x00\x00\x00\x53\x74\x72\x75\x63\x74\x50\x72\x6F\x70\x65\x72\x74\x79\x00\x00"
+                # number of unforged ocs, stored as a 32bit unsigned integer
+                + struct.pack("I", len(unforged_ocs))
+
+                + b"\x10\x00\x00\x00\x4F\x77\x6E\x65\x64\x53\x63\x68\x65\x6D\x61\x74\x69\x63\x73\x00\x0F\x00\x00\x00\x53\x74\x72\x75\x63\x74\x50\x72\x6F\x70\x65\x72\x74\x79\x00"
+                # number of bytes taken up by the GUID's of the unforged oc's, stored as a 64bit unsigned integer
+                + struct.pack("Q", len(unforged_ocs)*16)
+                + b"\x05\x00\x00\x00\x47\x75\x69\x64\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+            )
+            #print(ocs)
+            uuids = [bytes.fromhex(i) for i in unforged_ocs.keys()]
+            for i in uuids:
+                ocs += i
+
+            # the number of bytes between position of first "SchematicSave" and end_pos, -17, as a 64bit unsigned integer
+            schematic_save_size = struct.pack("Q", 139 + (141 + num_forged*16) + 4 + (139 + len(unforged_ocs)*16) - 17 )
+
+        else:
+            ocs = b""
+            # the number of bytes between position of first "SchematicSave" and end_pos, -17, as a 64bit unsigned integer
+            schematic_save_size = struct.pack("Q", 139 + (141 + num_forged*16) - 17 )
+
+        save_data = (
+            save_data[: pos + (num_forged * 16) + 141] + ocs + save_data[end_pos:]
+        )
+        save_data = (
+            save_data[:schematic_save_pos] + schematic_save_size + save_data[schematic_save_end_pos:]
+        )
 
     # write season data
     season_xp_marker = bytes.fromhex(season_guid)
@@ -1290,6 +1318,7 @@ rank_titles = [
 season_guids = {
     1: "A47D407EC0E4364892CE2E03DE7DF0B3",
     2: "B860B55F1D1BB54D8EE2E41FDA9F5838",
+    3: "D8810F6C76D374419AE6A18EF5B3BA26",
 }
 
 # global variable definitions
@@ -1300,7 +1329,7 @@ stats = dict()
 file_name = ""
 save_data = b""
 xp_per_season_level = 5000
-season_guid = season_guids[2]
+season_guid = season_guids[3]
 guid_re = re.compile(r".*\(([0-9A-F]*)\)")
 resource_guids = {
     "yeast": "078548B93232C04085F892E084A74100",
@@ -1335,9 +1364,12 @@ if __name__ == "__main__":
 
     try:
         # find the install path for the steam version
-        steam_reg = winreg.OpenKey(winreg.HKEY_CURRENT_USER, r"Software\Valve\Steam")
-        steam_path = winreg.QueryValueEx(steam_reg, "SteamPath")[0]
-        steam_path += "/steamapps/common/Deep Rock Galactic/FSD/Saved/SaveGames"
+        if platform == "win32":
+            steam_reg = winreg.OpenKey(winreg.HKEY_CURRENT_USER, r"Software\Valve\Steam")
+            steam_path = winreg.QueryValueEx(steam_reg, "SteamPath")[0]
+            steam_path += "/steamapps/common/Deep Rock Galactic/FSD/Saved/SaveGames"
+        else:
+            steam_path = "."
     except:
         steam_path = "."
 
