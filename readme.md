@@ -3,23 +3,22 @@
 This is a standalone DRG save editor written in python (3.6.12), using PyQt5 (5.9.2) and PySide2 (5.15.2) and packaged using the [fman build system](https://build-system.fman.io).
 
 ## There are likely to be bugs, see the Known Issues and Troubleshooting section!
-## I have largely moved on from this project, so no new features are planned, no major updates are in the pipeline, and only simple bug fixes will be performed. You are welcome to fork and continue the project on your own, just give credit.
+## Repo is aimed at providing continued support and updates for [robertnunn/DRG-Save-Editor](https://github.com/robertnunn/DRG-Save-Editor) as the original creator has "Largely moved on from this project"
+that said, I'm in college right now and likely won't have time to implement many of the To-Do items at the end of this file
 
 ## Requirements
-- Windows 7 (or compatibility mode)
-- ???
+any computer with __git__ (and/or a browser) to download the code, __pip__ to download the required python packages, __Python3__ to run the code, and a display should be able to make use of this project
 
 ## Installation
-Download the [DRG Save Editor.zip](https://github.com/robertnunn/DRG-Save-Editor/blob/master/DRG%20Save%20Editor.zip) file and extract the zip file and start the editor using the "start editor.cmd" batch file. 
-
+- clone the repo: `git clone https://github.com/AnthonyMichaelTDM/DRG-Save-Editor.git` (or download the source code from github)
+- open your terminal in the base directory of the project
+- install the required packages with pip using the following command: `pip install -r ./requirements.txt`
+- start the program with the `python3 ./src/main/python/main.py` command
 
 ## Known Issues
-- Due to a change in how overclocks are stored adding overclocks is broken and will completely reset your save if you try it. As such, adding OCs has been disabled and will not happen, even if you somehow manage to add some to the "Acquired but unforged" section.
 - The editor works by looking for specific values in the raw data of the save, it doesn't decode the data into a nice, neat python object. As a result if certain things aren't present in the save (e.g., >0 forged overclocks, certain resources) the editor will malfunction and give nonsensical results. The solution is to acquire at least one of the resources in game _then_ use the editor.
 
 ## Troubleshooting
-If the editor fails to start, please add a second line to the "start editor.cmd" that's just "pause". This will let you see any error messages that will be necessary for bug fixes. 
-
 If the editor opens but doesn't edit your save properly (i.e., values not being read properly, changes not being reflected in-game, etc) please open an issue, describe the problem as thoroughly as you can, and attach a copy of your save file from BEFORE any edits were attempted.
 
 ## Usage
@@ -33,9 +32,15 @@ Some notes:
 - You can CTRL+Click on overclocks to select more than one
 - Changing XP values will update the other relevant fields when the focus changes (i.e., click on a different part of the program or another program entirely)
 - If you have promotions beyond Legendary 3 those promotions will be preserved as long as the drop-down is set to "Legendary 3+". If you don't have enough promotions for a specific dwarf and set them to "Legendary 3+" it will keep whatever the original value was.
+- the `DRG Save Editor.zip` file is out of date, the only reason it's still in the repository is because there's really no point in removing it 
 
 ![main_screen](sshot.png)
 ## Changelog
+- v1.7
+    - Updated for season 3
+        - updated season guid
+- v1.6
+    - issue with adding OC's fixed by [Anthony](https://github.com/AnthonyMichaelTDM) in [PR #45](https://github.com/robertnunn/DRG-Save-Editor/pull/45)
 - v1.5
     - Updated editor for Season 2
     - Can adjust season xp and scrip
